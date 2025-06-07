@@ -20,5 +20,11 @@ COMMIT;--수행 완료(변경된 내용DB에 반영)
 --SELECT 칼럼이름 FROM테이블이름
 SELECT * FROM users;
 
+--아이디가 "today"인 회원의 정보 출력
+SELECT * FROM users WHERE userid = "today";
+
+--회원의 아이디와 비밀번호를 검색
+SELECT userid, passwd FROM users;
+
 --테이블 삭제
 DROP CREATE TABLE users;
