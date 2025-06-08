@@ -10,6 +10,10 @@ CREATE TABLE users (
 --회원 추가
 INSERT INTO users (userId,userpassword,username,userage) VALUES ();
 
+--이정후를 이종범으로 변경하고 나이를 50세로 변경
+UPDATE users SET username='이종범',userage=50
+WHERE user
+
 
 
 
